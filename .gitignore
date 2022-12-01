@@ -1,4 +1,5 @@
 .clj-kondo
+.nrepl-port
 .cpcache
 .lsp
 .java-version
