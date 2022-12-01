@@ -1,8 +1,8 @@
 (ns gjs.2021.example-day-1
   (:require
-    [util.santas-little-helpers :as slh]))
+   [util.santas-little-helpers :as slh]))
 
-(def input (->> (slh/read-input "2021/day_1.txt")
+(def input (->> (slh/read-input "gjs/2021/day_1.txt")
                 (map slh/parse-int)))
 
 (defn delta
@@ -22,5 +22,5 @@
                      (filter pos?)
                      count))
 
-(comment 
-  solution-1) 
+(comment
+  solution-1)
