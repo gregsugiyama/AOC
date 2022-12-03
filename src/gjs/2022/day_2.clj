@@ -2,8 +2,10 @@
   (:require
    [clojure.string :refer [split]]
    [util.santas-little-helpers :refer [read-input]]))
+
 (def input (->> (read-input "gjs/2022/day_2.txt")
                 (map #(split % #"\s"))))
+
 (def scores-pt-1 {["A" "X"] 4
                   ["A" "Y"] 8
                   ["A" "Z"] 3
@@ -13,6 +15,7 @@
                   ["C" "X"] 7
                   ["C" "Y"] 2
                   ["C" "Z"] 6})
+
 (def scores-pt-2 {["A" "X"] 3
                   ["A" "Y"] 4
                   ["A" "Z"] 8
