@@ -1,5 +1,6 @@
 {:paths ["resources" "src"]
- :deps {org.clojure/clojure {:mvn/version "1.10.1"}}
+ :deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        clojure-data/clojure-data {:mvn/version "0.1.4"}}
  :aliases {:nREPL {:extra-deps
                    {cider/cider-nrepl {:mvn/version "0.25.2"}
                     cider/piggieback  {:mvn/version "0.5.2"}
