@@ -3,6 +3,7 @@
    [clojure.set :refer [intersection subset?]]
    [clojure.string :as string]
    [util.santas-little-helpers :refer [parse-int read-input]]))
+
 (def input (read-input "gjs/2022/day_4.txt"))
 
 (defn parse-input
