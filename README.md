@@ -1,4 +1,4 @@
-# Advent of Code 2020
+# Advent of Code 2022
 
 - Run `make repl` to start a nREPL server.
 - Run `make clj-test` to run a unit tests in watch mode.
