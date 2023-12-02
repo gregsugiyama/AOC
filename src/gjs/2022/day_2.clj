@@ -31,5 +31,10 @@
   (transduce (map #(get scores %)) + 0 input))
 
 (comment
+
+  (defn add-1 [n] (+ 1 n))
+
+  (def foo (map add-1 [1 2 3 4 5]))
+
   (solve scores-pt-1)
   (solve scores-pt-2))
